@@ -7,8 +7,6 @@ services:
     build: ./backend
     restart: always
 
-    volumes:
-       - springBootLogs:/var/log/spring-boot
     ports:
       - 8090:8090
   
